@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "b101",
+      "title": "iPhone 13",
+      "price": "999",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
+      "stock": "50",
+      "description": "Apple iPhone 13"
+    },
+    {
+      "id": "b102",
+      "title": "MacBook Pro 16",
+      "price": "2399",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+      "stock": "30",
+      "description": "Apple MacBook Pro 16 inch"
+    },
+    {
+      "id": "b106",
+      "title": "HP Spectre x360",
+      "price": "1199",
+      "image": "https://images.unsplash.com/photo-1527430253228-e93688616381?auto=format&fit=crop&w=400&q=80",
+      "stock": "20",
+      "description": "HP Spectre x360 Convertible Laptop"
+    },
+    {
+      "id": "b107",
+      "title": "Google Pixel 6",
+      "price": "699",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
+      "stock": "45",
+      "description": "Google Pixel 6 Smartphone"
+    },
+    {
+      "id": "b113",
+      "title": "iPhone 12",
+      "price": "799",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
+      "stock": "38",
+      "description": "Apple iPhone 12"
+    },
+    {
+      "id": "b114",
+      "title": "Asus ZenBook",
+      "price": "1099",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80",
+      "stock": "26",
+      "description": "Asus ZenBook Laptop"
+    },
+    {
+      "id": "b115",
+      "title": "Home",
+      "price": "125",
+      "image": "https://images.philips.com/is/image/philipsconsumer/3195f5ef01474f9daf38b01500f0846f?wid=700&hei=700&$pnglarge$",
+      "stock": "54",
+      "description": "Homeee"
+    },
+    {
+      "id": "b119",
+      "title": "Surface Laptop 4",
+      "price": "999",
+      "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=400&q=80",
+      "stock": "20",
+      "description": "Microsoft Surface Laptop 4"
+    },
+    {
+      "id": "b120",
+      "title": "Mac Mini M1",
+      "price": "699",
+      "image": "https://images.unsplash.com/photo-1527430253228-e93688616381?auto=format&fit=crop&w=400&q=80",
+      "stock": "15",
+      "description": "Apple Mac Mini M1"
+    }
+  ]
+}
