@@ -1,18 +1,23 @@
-import axios from "axios";
+export const getProducts = async () => {
+  const res = await fetch("/db.json");
+  const data = await res.json();
+  return data.products;
+};
 
-const api = axios.create({
-  baseURL: "http://localhost:4000",
-  headers: { "Content-Type": "application/json" },
-});
+export const getProduct = async (id) => {
+  const res = await fetch("/db.json");
+  const data = await res.json();
+  return data.products.find((p) => p.id === id);
+};
 
-export const getProducts = () => api.get("/products");
+export const createProduct = () => {
+  throw new Error("Cannot create product on Netlify without backend");
+};
 
-export const getProduct = (id) => api.get(`/products/${id}`);
+export const updateProduct = () => {
+  throw new Error("Cannot update product on Netlify without backend");
+};
 
-export const createProduct = (data) => api.post("/products", data);
-
-export const updateProduct = (data, id) => api.put(`/products/${id}`, data);
-
-export const deleteProduct = (id) => api.delete(`/products/${id}`);
-
-export default api;
+export const deleteProduct = () => {
+  throw new Error("Cannot delete product on Netlify without backend");
+};
