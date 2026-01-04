@@ -9,7 +9,7 @@ export default function AdminPanel() {
   // fetchProducts معرفة خارج useEffect
   const fetchProducts = async () => {
     const res = await getProducts();
-    setProducts(res.data);
+    setProducts(res);
     console.log(res.data);
 
   };
